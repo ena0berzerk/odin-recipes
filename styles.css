@@ -1,0 +1,28 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: #2e4053;
+}
+
+.main-title {
+  font-size: 72px;
+  text-align: center;
+  text-decoration: underline;
+  cursor: default;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #1f618d;
+  font-size: 20px;
+  /* text-decoration: none; */
+  text-transform: uppercase;
+  list-style: none;
+}
