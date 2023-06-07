@@ -1,28 +1,70 @@
+/* Global Configures */
+
 body {
   font-family: "Times New Roman", Times, serif;
   color: #2e4053;
 }
 
-.main-title {
-  font-size: 72px;
-  text-align: center;
-  text-decoration: underline;
+h1 {
   cursor: default;
-}
-
-ul {
-  list-style-type: none;
   text-align: center;
-}
-
-li {
-  margin-bottom: 10px;
+  font-size: 72px;
+  text-decoration: underline;
 }
 
 a {
   color: #1f618d;
-  font-size: 20px;
-  /* text-decoration: none; */
   text-transform: uppercase;
   list-style: none;
+  font-size: 14px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 24%;
+}
+
+.title {
+  font-size: 52px;
+}
+/* Main Page */
+
+.index-title {
+  background-color: #fb8500;
+  color: #edf6f9;
+}
+
+.index-ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.index-li {
+  margin-bottom: 10px;
+}
+
+.index-ul a {
+  font-size: 20px;
+}
+
+/* Ramen Page */
+
+.ramen-title {
+  background-color: #ae2012;
+  color: #e5e5e5;
+}
+
+/* Fried-Rice Page */
+
+.fried-rice-title {
+  background-color: #2a9d8f;
+  color: #e9c46a;
+}
+
+/* Tortillas Page */
+
+.tortillas-title {
+  background-color: #e8dab2;
+  color: #eb5e28;
 }
