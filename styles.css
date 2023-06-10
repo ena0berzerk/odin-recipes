@@ -1,19 +1,32 @@
 /* Global Configures */
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
 body {
   font-family: "Times New Roman", Times, serif;
-  color: #2e4053;
+  background-color: #fad8bc;
+  color: #f1faee;
 }
 
 h1 {
-  cursor: default;
+  /* cursor: default; */
   text-align: center;
   font-size: 72px;
   text-decoration: underline;
+  margin: 0;
+  color: #f4a261;
 }
 
 a {
-  color: #1f618d;
+  color: #f4a261;
   text-transform: uppercase;
   list-style: none;
   font-size: 14px;
@@ -22,26 +35,48 @@ a {
 img {
   display: block;
   margin: 0 auto;
-  width: 24%;
 }
 
 .title {
   font-size: 52px;
+  margin: 0;
 }
 /* Main Page */
 
+.container {
+  max-width: 860px;
+  margin: 80px auto 0;
+  padding: 40px 100px 20px;
+  background-color: #f0f8f9;
+  border: 2px solid #1d3557;
+  border-radius: 8px;
+}
+
 .index-title {
-  background-color: #fb8500;
-  color: #edf6f9;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.index-img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid #1d3557;
+  border-radius: 8px;
 }
 
 .index-ul {
   list-style-type: none;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .index-li {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.index-li:last-child {
+  margin-bottom: 0;
 }
 
 .index-ul a {
